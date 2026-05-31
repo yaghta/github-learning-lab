@@ -43,20 +43,16 @@ cd github-learning-lab
 # 4. exercises/04-cicd-github-actions/ (NEW!)
 ```
 
-## 🚀 CI/CD is Active!
+## 🚀 CI/CD Setup Required!
 
-This repository has **automated CI/CD** enabled! Every time you:
-- Create a PR
-- Push to a branch
-- Update main
+This repository includes a **complete CI/CD exercise**, but you need to activate it manually:
 
-GitHub Actions will automatically:
-- ✅ Check file structure
-- ✅ Validate required files
-- ✅ Run tests
-- ✅ Build the project
+1. Go to: https://github.com/yaghta/github-learning-lab
+2. Read `CICD-SETUP.md` for instructions
+3. Create the workflow file via GitHub web UI
+4. Watch the magic happen! 🤖
 
-**Watch it in action:** Click the **"Actions"** tab above! 🤖
+**Why manual?** GitHub requires special permissions to push workflow files. See `CICD-SETUP.md` for details.
 
 ## Your Practice Environment
 
