@@ -22,7 +22,14 @@ Welcome to your interactive GitHub learning experience! This repo is designed to
 - Resolving merge conflicts
 - Branch protection rules
 
-## Quick Start
+### Level 4: CI/CD with GitHub Actions 🆕
+- What CI/CD is and why it matters
+- Creating your first workflow
+- Multi-job pipelines
+- Status checks and branch protection
+- Automated testing and deployment
+
+# Quick Start
 
 ```bash
 # Clone this repo
@@ -33,7 +40,23 @@ cd github-learning-lab
 # 1. exercises/01-pull-request-basics/
 # 2. exercises/02-forking-workflow/
 # 3. exercises/03-collaboration-patterns/
+# 4. exercises/04-cicd-github-actions/ (NEW!)
 ```
+
+## 🚀 CI/CD is Active!
+
+This repository has **automated CI/CD** enabled! Every time you:
+- Create a PR
+- Push to a branch
+- Update main
+
+GitHub Actions will automatically:
+- ✅ Check file structure
+- ✅ Validate required files
+- ✅ Run tests
+- ✅ Build the project
+
+**Watch it in action:** Click the **"Actions"** tab above! 🤖
 
 ## Your Practice Environment
 
